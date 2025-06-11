@@ -4,7 +4,6 @@
 
 Künstliche Intelligenz (KI) hat sich in den letzten Jahren von einem Forschungsfeld zu einer tragenden Säule moderner Anwendungen entwickelt. Gleichzeitig ist die Verfügbarkeit großer, gut strukturierter Datenmengen eine der wichtigsten Voraussetzungen, um leistungsfähige KI-Systeme zu erstellen. Datenbanken übernehmen in diesem Kontext die Aufgabe, Daten langfristig zu speichern, effizient bereitzustellen und zuverlässig zu verwalten. Diese Ausarbeitung vertieft die Inhalte der begleitenden Präsentation und soll aufzeigen, wie eng Datenbanken und KI miteinander verzahnt sind. Sie richtet sich an Leserinnen und Leser, die einen praxisnahen Einblick in dieses Themenfeld erhalten möchten.
 
-\newpage
 
 ## Datenbanken im KI-Kontext
 
@@ -12,7 +11,6 @@ Datenbanken bilden das Rückgrat nahezu aller datengetriebenen Systeme. In KI-Pr
 
 Auch das Zusammenspiel mit Big-Data-Technologien ist im KI-Umfeld ein wichtiger Faktor. Datenbanken arbeiten oft mit verteilten Dateisystemen oder Streaming-Plattformen zusammen, um große Datenmengen in Echtzeit verfügbar zu machen. Skalierbarkeit, Ausfallsicherheit und hohe Performance stehen dabei im Vordergrund. Je effizienter die Datenverwaltung, desto leichter lassen sich komplexe KI-Workflows umsetzen.
 
-\newpage
 
 ## Datenbanktypen für KI
 
@@ -26,7 +24,6 @@ Im Laufe der Zeit haben sich unterschiedliche Datenbankmodelle etabliert, die f�
 
 Oft wird ein hybrider Ansatz verfolgt, bei dem verschiedene Datenbankmodelle miteinander kombiniert werden. So lassen sich die jeweiligen Stärken optimal ausnutzen, etwa wenn strukturierte Kundendaten relational abgelegt werden, während ein Graphsystem die Beziehungen dieser Kunden untereinander verwaltet.
 
-\newpage
 
 ## Datenqualität & Vorbereitung
 
@@ -40,7 +37,6 @@ Für zuverlässige KI-Modelle ist eine hohe Datenqualität unverzichtbar. Unvoll
 
 Neben diesen Schritten spielt auch die laufende Datenpflege eine wichtige Rolle. Daten sollten versioniert werden, um Änderungen nachvollziehbar zu halten. Automatisierte Prüfprozesse stellen sicher, dass neue Daten den Qualitätsrichtlinien entsprechen. Einige Datenbanksysteme bringen hierfür integrierte Werkzeuge und ETL-Pipelines mit, die das Bereinigen und Laden der Daten erleichtern.
 
-\newpage
 
 ## Rolle der Datenbank in der Datenverarbeitung
 
@@ -48,7 +44,6 @@ Datenbanken bieten weit mehr als reine Speicherfunktionen. Sie koordinieren konk
 
 Ein weiterer Aspekt ist die Nachvollziehbarkeit von Datenflüssen. Mittels sogenannter Data-Lineage-Funktionen lässt sich genau ermitteln, woher ein Datensatz stammt und welche Verarbeitungsschritte er durchlaufen hat. Gerade im regulierten Umfeld ist diese Transparenz unverzichtbar. Moderne Datenbanksysteme integrieren darüber hinaus Analysefunktionen, mit denen sich Daten direkt innerhalb des Systems aggregieren oder vorverarbeiten lassen. So müssen nicht alle Daten in externe Werkzeuge exportiert werden, was die Performance steigert und Sicherheitsrisiken reduziert.
 
-\newpage
 
 ## KI nutzt Datenbanken
 
@@ -56,7 +51,6 @@ Maschinelles Lernen und Deep-Learning-Verfahren beziehen ihre Stärke aus große
 
 Im produktiven Einsatz greifen viele KI-Systeme ständig auf Datenbanken zu. Recommendation Engines laden Nutzerprofile und Transaktionsdaten, Chatbots speichern Dialogkontexte, und Anomalieerkennungen lesen Logdateien ein. Einige Datenbanksysteme bieten sogar Funktionen zum direkten Trainieren einfacher Modelle innerhalb der Datenbank. Das reduziert Datenbewegungen und erleichtert das Einhalten von Sicherheitsrichtlinien.
 
-\newpage
 
 ## Datenbanken nutzen KI
 
@@ -70,13 +64,11 @@ Datenbankmanagementsysteme selbst profitieren zunehmend von KI-Technologien. Sie
 
 Solche Funktionen verringern den Administrationsaufwand und machen Datenbanksysteme robuster gegenüber unvorhersehbaren Lastspitzen oder Hardwareproblemen.
 
-\newpage
 
 ## Live Demo (Kurzüberblick)
 
 Die Präsentation enthielt eine kurze Vorführung, bei der ein kleines NLP-Projekt gezeigt wurde. Hierbei wurden Rezepttexte analysiert, um relevante Zutaten automatisch zu erkennen. Zunächst lagerten alle Texte in einer Datenbank, die über eine Python-Anwendung ausgelesen wurde. Anschließend verarbeitete ein vortrainiertes Modell die Daten und schrieb erkannte Zutaten wieder zurück in die Datenbank. Dieser Kreislauf verdeutlicht, wie wichtig eine saubere Integration zwischen KI-Logik und Datenhaltung ist. In realen Projekten können ähnliche Abläufe deutlich komplexer ausfallen, etwa wenn weitere Verarbeitungsschritte nötig sind oder mehrere Datenquellen zusammengeführt werden müssen.
 
-\newpage
 
 ## Herausforderungen
 
@@ -92,7 +84,6 @@ Trotz großer Fortschritte gibt es zahlreiche Stolpersteine, wenn KI und Datenba
 
 Jede dieser Herausforderungen erfordert sorgfältige Planung und passende technische sowie organisatorische Maßnahmen.
 
-\newpage
 
 ## Zukunftstrends
 
@@ -106,7 +97,6 @@ Die technologische Entwicklung schreitet rasant voran. In den kommenden Jahren w
 
 Diese Entwicklungen zeigen, dass Datenbanken künftig noch enger mit KI verzahnt sein werden, sei es im Rechenzentrum, in der Cloud oder direkt am Netzwerkrand.
 
-\newpage
 
 ## Fazit
 
