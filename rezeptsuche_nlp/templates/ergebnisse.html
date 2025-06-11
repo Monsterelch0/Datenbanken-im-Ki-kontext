@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Gefundene Rezepte</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .results {
+            background: white;
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 700px;
+            width: 100%;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            padding: 15px;
+            margin-bottom: 10px;
+            background-color: #f1f1f1;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+        li:hover {
+            background-color: #e1e1e1;
+        }
+        .back-link {
+            margin-top: 20px;
+            display: inline-block;
+            text-decoration: none;
+            color: #007bff;
+            font-size: 14px;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="results">
+        <h2>Gefundene Rezepte</h2>
+        {% if rezepte %}
+            <ul>
+                {% for r in rezepte %}
+                    <li><strong>{{ r[1] }}</strong><br>{{ r[5] }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>😕 Keine passenden Rezepte gefunden.</p>
+        {% endif %}
+        <a class="back-link" href="/">🔙 Neue Suche starten</a>
+    </div>
+</body>
+</html>
