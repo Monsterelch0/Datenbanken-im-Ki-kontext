@@ -1,4 +1,4 @@
-#Datenbanken und Künstliche Intelligenz: Eine schriftliche Ausarbeitung
+# Datenbanken und Künstliche Intelligenz: Eine schriftliche Ausarbeitung
 
 ## Einführung
 
