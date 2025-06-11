@@ -82,8 +82,6 @@ Kommerzielle Datenbankanbieter integrieren bereits heute Machine-Learning-Module
 Solche Funktionen verringern den Administrationsaufwand und machen Datenbanksysteme robuster gegenüber unvorhersehbaren Lastspitzen oder Hardwareproblemen.
 Insgesamt tragen diese Ansätze dazu bei, den Betrieb großer Datenbanken zu vereinfachen und zugleich eine höhere Servicequalität zu erreichen.
 
-
-## Live Demo (Kurzüberblick)
 ## Projekt: Rezeptsuche mit NLP
 
 Die Präsentation enthielt eine kurze Vorführung, bei der ein kleines NLP-Projekt gezeigt wurde. Hierbei wurden Rezepttexte analysiert, um relevante Zutaten automatisch zu erkennen. Zunächst lagerten alle Texte in einer Datenbank, die über eine Python-Anwendung ausgelesen wurde. Anschließend verarbeitete ein vortrainiertes Modell die Daten und schrieb erkannte Zutaten wieder zurück in die Datenbank. Dieser Kreislauf verdeutlicht, wie wichtig eine saubere Integration zwischen KI-Logik und Datenhaltung ist. In realen Projekten können ähnliche Abläufe deutlich komplexer ausfallen, etwa wenn weitere Verarbeitungsschritte nötig sind oder mehrere Datenquellen zusammengeführt werden müssen.
@@ -160,7 +158,6 @@ Unternehmen sollten die genannten Trends frühzeitig evaluieren, um ihre Datenar
 Datenbanken bilden die Grundlage für nahezu alle KI-Anwendungen. Sie sorgen dafür, dass Daten strukturiert vorliegen, nachvollziehbar verarbeitet werden und jederzeit abrufbar sind. Gleichzeitig nutzen moderne Datenbanksysteme selbst KI-Methoden, um ihre Leistungsfähigkeit zu steigern und die Verwaltung zu erleichtern. Wer erfolgreiche KI-Projekte umsetzen möchte, kommt daher nicht an einem soliden Datenbankkonzept vorbei.
 
 Die hier vorgestellten Aspekte verdeutlichen, wie vielfältig das Zusammenspiel beider Bereiche ist. Von der Wahl des passenden Datenbanktyps über die Sicherstellung hoher Datenqualität bis hin zu zukünftigen Trends wie Vektordatenbanken und AutoML – all diese Themen tragen dazu bei, KI-Lösungen effizient und zuverlässig zu gestalten. Mit einem ganzheitlichen Blick auf Datenhaltung und -verarbeitung lassen sich die Potenziale von Künstlicher Intelligenz voll ausschöpfen.
-
 Zusammenfassend lässt sich sagen, dass technisches Know-how allein nicht reicht. Erfolgreiche Projekte kombinieren Fachwissen aus den Bereichen Datenmanagement, KI-Entwicklung und Business-Strategie. Nur wenn alle Beteiligten eng zusammenarbeiten, können Datenbanken ihr volles Potential im Dienste der Künstlichen Intelligenz entfalten.
 Langfristig wird der Erfolg von KI-Projekten davon abhängen, wie gut Unternehmen ihre Datenbanken mit den stetig wachsenden Anforderungen intelligenter Algorithmen in Einklang bringen. Wer frühzeitig in robuste Datenprozesse investiert, schafft die Grundlage für nachhaltige Innovation.
 So entsteht ein innovationsfreundliches Umfeld, das sowohl heutige Anwendungen stützt als auch Raum für zukünftige Entwicklungen schafft.
